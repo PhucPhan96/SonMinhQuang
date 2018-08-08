@@ -43,12 +43,16 @@
 			container = perspectiveWrapper.querySelector( '.container-head' ),
 			contentWrapper = container.querySelector( '.wrapper' ),
 			iconhome = perspectiveWrapper.querySelector( '.icon-home' );
-			iconabout = perspectiveWrapper.querySelector( '.icon-about' );
+			iconabout = perspectiveWrapper.querySelector( '.icon-news' );
+			iconproduct = perspectiveWrapper.querySelector( '.icon-image' );
 
 		iconhome.addEventListener(clickevent, function(ev){
 			classie.remove( perspectiveWrapper, 'animate' );
 		});
 		iconabout.addEventListener(clickevent, function(ev){
+			classie.remove( perspectiveWrapper, 'animate' );
+		});
+		iconproduct.addEventListener(clickevent, function(ev){
 			classie.remove( perspectiveWrapper, 'animate' );
 		});
 

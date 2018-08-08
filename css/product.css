@@ -1,6 +1,6 @@
 .carousel-heading{
 	color:#fff;
-	background:#34495e;
+	background:#1f558c;
 	text-transform:uppercase;
 	margin-bottom:10px;
 	overflow:hidden;
@@ -42,14 +42,14 @@
 	padding:10px 15px;
     font-size:16px;
     font-family: 'Times New Roman', Times, serif;
-	height:40px;
+	height:100%;
 	text-transform:uppercase;
 	color:#fff;
 	position:absolute;
-	top:110px;
+	top:5px;
 	left:0;
 	right:0;
-	width:160px;
+	width:100%;
 	margin:0 auto;
 	cursor:pointer;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
