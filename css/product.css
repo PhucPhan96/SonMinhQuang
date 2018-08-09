@@ -113,3 +113,13 @@
 .product-info h6:hover{
 	color:#ffffff;
 }
+
+.modal-body img{
+	width: 80%;
+	margin: 5% 10%;
+}
+
+.modal-body p{
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+}

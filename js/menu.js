@@ -45,6 +45,7 @@
 			iconhome = perspectiveWrapper.querySelector( '.icon-home' );
 			iconabout = perspectiveWrapper.querySelector( '.icon-news' );
 			iconproduct = perspectiveWrapper.querySelector( '.icon-image' );
+			iconmail = perspectiveWrapper.querySelector( '.icon-mail' );
 
 		iconhome.addEventListener(clickevent, function(ev){
 			classie.remove( perspectiveWrapper, 'animate' );
@@ -53,6 +54,9 @@
 			classie.remove( perspectiveWrapper, 'animate' );
 		});
 		iconproduct.addEventListener(clickevent, function(ev){
+			classie.remove( perspectiveWrapper, 'animate' );
+		});
+		iconmail.addEventListener(clickevent, function(ev){
 			classie.remove( perspectiveWrapper, 'animate' );
 		});
 
